@@ -1,0 +1,73 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	font-family: Helvetica, sans-serif;
+}
+body{
+	background: #0f0326;
+}
+
+.header{
+	width: 100%;
+	max-width: 2000px;
+	background: #58cb38a8;
+}
+.logo{
+	width: 150px;
+	display: block;
+	margin: 0px auto 0px auto;
+}
+
+.catalogo{
+	width: 90%;
+	max-width: 1800px;
+	margin: 15px auto 0px auto;
+}
+
+.pelicula{
+	background: rgba(254, 111, 95, 0.2);
+	margin-bottom: 15px;
+	padding: 2.5px;
+	width: 30%;
+	display: inline-block;
+}
+.pelicula:hover{
+	background: rgba(196, 59, 44, 0.523);
+}
+.pelicula:active{
+	background: rgba(196, 59, 44, 0.811);
+}
+h2{
+	color: #f2f2f2;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 7.5px;
+	margin-bottom: 7.5px;
+}
+.poster{
+	width: 186px;
+	display: block;
+	margin: 7.5px auto 7.5px auto;
+}
+
+
+.info{
+	margin: 15px auto 100px auto;
+	padding:15px;
+	background: rgba(254, 111, 95, 0.2);
+	width: 50%;
+}
+.info:hover{
+	background: rgba(196, 59, 44, 0.523);	
+}
+h5{
+	text-align: center;
+	color: #f2f2f2;
+}
+.error{
+	margin-top:150px;
+	color: rgb(196, 44, 44);	
+}
+.good{
+	color:#58cb38a8;	
+}
